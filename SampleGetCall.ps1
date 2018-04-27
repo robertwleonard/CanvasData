@@ -21,6 +21,7 @@ foreach($course in $courses) {
         'account_id'=$course.account_id
         'calendar'=$course.calendar.ics
         'name'=$course.name
+        # You can keep adding more fields here and they will appear in your file
     }
 
     # Add the custom object to our ArrayList
